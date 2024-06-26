@@ -1,0 +1,125 @@
+export default {
+  async fetch(request, env, ctx) {
+    const htmlContent = `
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islam en het Belang van Gebed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #16a085;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="content">
+            <h1>Islam, Zuilen en het Belang van Gebed</h1>
+            <ul>
+                <h2>Inleiding tot Islam</h2>
+                <p>
+                    De islam is een prominente wereldreligie die de geloofsbelijdenis in één God (Allah) en de leer van de profeet Mohammed, zoals vastgelegd in de Koran, centraal stelt. De kern van het islamitische geloof wordt gevormd door de vijf zuilen: Shahada (geloofsbelijdenis), Salah (gebed), Zakat (aalmoes), Sawm (vasten) en Hajj (bedevaart naar Mekka).
+                </p>
+                <li>
+                    <h2>Shahada (Geloofsbelijdenis)</h2>
+                    <p>
+                        Shahada is de eerste zuil van de islam en betekent het uitspreken van de geloofsbelijdenis. Dit bevestigt het geloof in de eenheid van Allah en het profeetschap van Mohammed. Deze essentiële uitspraak is de toegangspoort tot het islamitische geloof en moet met oprechte overtuiging worden uitgesproken.
+                    </p>
+                </li>
+                <li>
+                    <h2>Salah (Gebed)</h2>
+                    <p>
+                        Salah, de tweede zuil, verwijst naar de vijf dagelijkse gebeden die moslims uitvoeren. Deze gebeden verbinden de gelovige direct met Allah. De gebedstijden zijn verdeeld over de dag: bij zonsopgang (Fajr), middag (Dhuhr), namiddag (Asr), zonsondergang (Maghrib) en avond (Isha). Elk gebed bestaat uit een reeks bewegingen en recitaties uit de Koran, bekend als Rak'ahs. Salah is verplicht voor alle volwassen moslims en dient als een constante herinnering aan Allah's aanwezigheid in hun leven.
+                    </p>
+                </li>
+                <li>
+                    <h2>Zakat (Aalmoes)</h2>
+                    <p>
+                        Zakat is de derde zuil en verwijst naar de plicht om een deel van de rijkdom te geven aan de behoeftigen, meestal 2,5% van het vermogen. Deze praktijk zuivert iemands rijkdom en helpt bij het verminderen van economische ongelijkheid binnen de moslimgemeenschap.
+                    </p>
+                </li>
+                <li>
+                    <h2>Sawm (Vasten)</h2>
+                    <p>
+                        Sawm, de vierde zuil, omvat het vasten tijdens de maand Ramadan. Van zonsopgang tot zonsondergang onthouden moslims zich van eten, drinken, roken en huwelijksrelaties. Dit vasten dient als spirituele discipline, zelfbeheersing en empathie voor de minderbedeelden. Ramadan eindigt met de viering van Eid al-Fitr.
+                    </p>
+                </li>
+                <li>
+                    <h2>Hajj (Bedevaart)</h2>
+                    <p>
+                        De vijfde zuil, Hajj, is de bedevaart naar Mekka die elke moslim ten minste eenmaal in zijn leven moet volbrengen, mits hij fysiek en financieel in staat is. De Hajj vindt plaats in de islamitische maand Dhu al-Hijjah en omvat rituelen die de daden van de profeet Abraham en zijn familie herdenken. Hajj symboliseert de eenheid van de islamitische gemeenschap en hun onderwerping aan Allah.
+                    </p>
+                </li>
+                <h2>Het Belang van Gebed (Salah)</h2>
+                <p>
+                    Salah heeft een bijzondere betekenis vanwege de frequente uitvoering en de intieme aard van de aanbidding. Het is een essentieel middel om een constante verbinding met Allah te onderhouden, leiding te zoeken en dankbaarheid te uiten. De fysieke handelingen, zoals buigen en knielen, symboliseren de onderwerping en nederigheid van de gelovige voor de Schepper.
+                </p>
+                <p>
+                    Gebed bevordert ook het gemeenschapsgevoel onder moslims. Gemeenschappelijke gebeden, vooral het vrijdaggebed (Jumu'ah), bieden een gelegenheid voor moslims om samen te komen, sociale banden te versterken en een gedeeld gevoel van identiteit te behouden. Deze bijeenkomsten zijn belangrijke momenten voor wederzijdse steun en leren.
+                </p>
+                <p>
+                    De verspreiding van de vijf dagelijkse gebeden over de dag helpt moslims regelmatig afstand te nemen van hun dagelijkse bezigheden om Allah te gedenken. Deze discipline bevordert mindfulness en verantwoordelijkheid, en herinnert moslims eraan dat hun geloof een integraal onderdeel is van hun dagelijks leven.
+                </p>
+                <p>
+                    De voordelen van Salah reiken verder dan spiritueel welzijn. De regelmatige fysieke bewegingen dragen bij aan de fysieke gezondheid, bevorderen flexibiliteit en de bloedsomloop. Bovendien helpt de mentale focus en rust die tijdens Salah wordt bereikt om stress en angst te verminderen, wat bijdraagt aan een gevoel van vrede en aarding.
+                </p>
+                <p>
+                    Voor gebedstijden kunt u terecht bij verschillende bronnen zoals <a href="https://islamguide.eu/gebedstijden-in-amsterdam/">gebedstijden in Amsterdam</a>, <a href="https://islamguide.eu/gebedstijden-rotterdam/">gebedstijden in Rotterdam</a>, <a href="https://islamguide.eu/gebedstijden-den-haag/">gebedstijden in Den Haag</a>, <a href="https://islamguide.eu/gebedstijden-breda/">gebedstijden in Breda</a>, en nog veel meer op islamguide.eu/gebedstijden.
+                </p>
+                <h2>Conclusie</h2>
+                <p>
+                    De islam biedt door de vijf zuilen een uitgebreide structuur voor aanbidding en ethisch gedrag. Salah, een van deze zuilen, is van bijzonder belang door de frequente observatie en de rol ervan in het bevorderen van een diepe en voortdurende relatie met Allah. Door de voorgeschreven gebedstijden na te leven, cultiveren moslims een gedisciplineerd, mindful en spiritueel verrijkt leven.
+                </p>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+    `;
+    return new Response(htmlContent, {
+      headers: { 'Content-Type': 'text/html' }
+    });
+  },
+};
